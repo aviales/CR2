@@ -1,11 +1,6 @@
-/* 
- * Author: Gabriel Chávez
- * Website: https://gabrielchavez.me
- */
-
 const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://web.whatsapp.com/';
+const urlDesktop = 'https://api.whatsapp.com/send?phone=+50683128032';
 const urlMobile = 'whatsapp://';
 const phone = '50683128032';
 
